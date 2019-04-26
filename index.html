@@ -1,1 +1,109 @@
-hello world
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>
+Learning the Depths of Moving People by 
+<br/>
+Watching Frozen People
+</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-65563403-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-65563403-3');
+</script>
+</head>
+<body>
+<div class="container">
+  <p>&nbsp;</p>
+  <p><span class="title">Learning the Depths of Moving People by Watching Frozen People</span>  </p>
+  <table border="0" align="center" class="authors">
+    <tr align="center">
+      <td><a href="http://www.cs.cornell.edu/~zl548/">Zhengqi Li</a></td>
+      <td><a href="http://people.csail.mit.edu/talidekel/">Tali Dekel</a><a href="https://research.google.com/pubs/InbarMosseri.html"></a></td>
+      <td><a href="http://people.csail.mit.edu/fcole/">Forrester Cole</a></td>
+      <td>Richard Tucker</td>
+      <td><a href="http://www.cs.cornell.edu/~snavely/">Noah Snavely</a></td>
+      <td><a href="https://people.csail.mit.edu/celiu/">Ce Liu</a></td>
+      <td><a href="https://billf.mit.edu/">William T. Freeman</a></td>
+    </tr>
+  </table>
+  <br />
+  <table border="0" align="center" class="affiliations">
+    <tr>
+      <td align="center"><img src="images/logo_research.png" height="40" alt=""/></td>
+      <td align="left"><a href="https://research.google.com/">Google Research</a></td>
+    </tr>
+  </table>
+  <br />
+  <table width="200" border="0" align="center">
+    <tr>
+      <td><img src="images/teaser_cc.jpg" width="990" alt=""/></td>
+    </tr>
+    <tr>
+      <td class="caption"><p>Our model predicts dense depth when both an ordinary camera and people in the scene are freely moving (right). We train our
+        model on our new MannequinChallenge dataset—a collection of Internet videos of people imitating mannequins, i.e., freezing in diverse,
+        natural poses, while a camera tours the scene (left). Because people are stationary, geometric constraints hold; this allows us to use
+        multi-view stereo to estimate depth which serves as supervision during training
+      </p></td>
+    </tr>
+  </table>
+  <p><span class="section">Abstract</span> </p>
+  <p>We present a method for predicting dense depth in scenarios where both a monocular camera and people in the scene are freely moving. Existing methods for recovering depth for dynamic, non-rigid objects from monocular video impose strong assumptions on the objects&rsquo; motion and may only recover sparse depth. In this paper, we take a data-driven approach and learn human depth priors from a new source of data: thousands of Internet videos of people imitating mannequins, i.e., freezing in diverse, natural poses, while a hand-held camera tours the scene. Since the people are stationary, training data can be created from these videos using multi-view stereo reconstruction. At inference time, our method uses motion parallax cues from the static areas of the scenes, and shows clear improvement over state-of-the-art monocular depth prediction methods. We demonstrate our method on real-world sequences of complex human actions captured by a moving hand-held camera, and show various 3D effects produced using our predicted depth.<br />
+  </p>
+  <p class="section">&nbsp;</p>
+
+  <table width="200" border="0" align="center">
+    <tbody>
+      <tr>
+        <td><iframe aligh="center" width="853" height="480" src="https://www.youtube.com/embed/fj_fK74y5_0" frameborder="0" allowfullscreen></iframe></td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="section">&nbsp;</p>
+  <p class="section">Paper</p>
+  <table border="0">
+    <tbody>
+      <tr>
+        <td height="202"><a href="https://arxiv.org/pdf/1904.11111.pdf"><img src="images/Artboard 1@0.75x.png" alt="" width="175" height="211"/></a></td>
+        <td>&nbsp;</td>
+        <td><p>&quot;Learning the Depths of Moving People by Watching Frozen People&quot;,<br />
+            Zhengqi Li, Tali Dekel, Forrester Cole, Richard Tucker, Noah Snavely, Ce Liu and William T. Freeman<br />
+            <br />
+            CVPR 2019 (Oral Presentation) <br />
+          </p>
+        <p>[<a href="https://arxiv.org/pdf/1904.11111.pdf">Arxiv</a>][CVF]</p></td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="section">Supplementary Material</p>
+  <table width="587" height="136" border="0">
+    <tbody>
+      <tr>
+        <td width="205"><img src="images/supp_fig.jpg" alt="" width="205" height="205"/></td>
+        <td width="1">&nbsp;</td>
+        <td width="367"><ul>
+          <li>[<a href="MC_CC_EVAL/index.html">MannequinChallenge Evaluation Resuls</a>]</li>
+          <li>[<a href="TUM/index.html">Additional Results on TUM Dataset</a>]</li>
+          <li>[<a href="mannequin_depth_cvpr2019_supp_doc.pdf">Supplementary Document</a>]</li>
+        </ul></td>
+      </tr>
+    </tbody>
+  </table>
+  <p>&nbsp;</p>
+  <p><span class="section">MannequinChallenge Dataset</span></p>
+  <p>Coming soon...</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p><strong><em>Acknowledgements.</em> </strong><em>We would like to thank Xiuming Zhang for his help in producing the human mesh results.
+  </em></p>
+  <p class="section">&nbsp;</p>
+  <p align="center" class="date">Last updated: April 2018</p>
+</div>
+</body>
+</html>
