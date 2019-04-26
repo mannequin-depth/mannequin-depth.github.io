@@ -1,7 +1,7 @@
 /* CSS Document */
 
 body {
-	font: 16px "Google Sans";
+	font: 16px "roboto";
 	color: #000;
 	background-color: #fff;
 	line-height: 1.5em;
@@ -33,6 +33,7 @@ body {
 }
 
 .title {
+	font: "Google Sans";
 	font-size: 190%;
 	font-weight: bold;
 	display: block;
